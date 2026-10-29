@@ -6,7 +6,7 @@ An IoT-based team project using an ESP32 and piezoelectric sensors to detect foo
 
 Crowded public spaces such as railway stations, college campuses, and event venues can experience sudden increases in pedestrian activity. Monitoring footstep activity can provide an additional indicator of unusual movement.
 
-This project uses piezoelectric sensors to detect mechanical vibrations associated with footsteps. An ESP32 processes the sensor readings, counts detected footsteps, and sends monitoring data to a Blynk dashboard. A time-window-based algorithm identifies unusually high footstep activity and triggers an alert when a configured threshold is exceeded.
+This project uses piezoelectric sensors to detect mechanical vibrations associated with footsteps. An ESP32 processes sensor readings, counts detected footsteps, and sends monitoring data to a Blynk dashboard. A time-window-based algorithm identifies unusually high footstep activity and triggers an alert when a configured threshold is exceeded.
 
 Footstep-based energy harvesting is a planned extension and has not yet been experimentally validated.
 
@@ -39,19 +39,19 @@ The project was assembled as a physical prototype using an ESP32, piezoelectric 
 
 ### Full Hardware Prototype
 
-![Full hardware prototype](images/full-prototype.jpg)
+![Full hardware prototype](full-prototype.jpeg)
 
 *Physical prototype showing the sensor arrangement and ESP32-based monitoring circuit.*
 
 ### ESP32 and Circuit Connections
 
-![ESP32 and circuit connections](images/esp32-circuit.jpg)
+![ESP32 and circuit connections](esp32-circuit.jpeg)
 
 *Close-up of the ESP32 development board, breadboard, and electronic components.*
 
 ### Piezoelectric Sensor Arrangement
 
-![Piezoelectric sensor arrangement](images/piezoelectric-sensors.jpg)
+![Piezoelectric sensor arrangement](piezoelectric-sensors.jpeg)
 
 *Arrangement of piezoelectric sensing elements intended to detect mechanical vibrations associated with footsteps.*
 
